@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>知乎登录</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="title">
+            <span>密码登录</span>
+        </div>
+        <!-- <div class="stick"></div> -->
+
+        <form class="login-form" action="/app/authenticate" name="user" method="post">
+            <!--输入框-->
+            <div class="input-content">
+
+                <div>
+                    <input class="username" placeholder="手机或邮箱" type="text">
+                </div>
+
+                <div>
+                    <input class="password" placeholder="密码" type="password">
+                </div>
+            </div>
+
+            <!--登录按钮-->
+            <div>
+                <button class="entry-button" type="submit">注册/登录</button>
+            </div>
+            <div>
+                <footer class="footer">未注册的手机验证后自动登录，注册即代表同意《知乎协议》《隐私保护指引》</footer>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
